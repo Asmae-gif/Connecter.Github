@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;}
+header
+{
+height: 80px;
+width: 100%;
+padding: 0 20px;
+background-color: #222;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-container img {
+    width: 60px;
+    height: auto;
+}
+
+.logo-container p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;  
+    list-style: none;
+}
+nav ul li {
+    padding: 0 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.banner {  
+    font-weight: bold;
+    font-size: 25px;
+    color:  rgba(123, 125, 50, 0.7);
+    padding: 30px;  
+    
+}
+body {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.Identifiant {
+    width: 40%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.box {
+    margin: 10px 0;
+    padding: 10px;
+    width: 70%;
+}
+.Al{display: flex;}
+.button {
+    background: black;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    width: 45%;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Conteneur du footer */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Section logo */
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Informations du footer */
+.footer-info {
+    text-align: left;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-info a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
